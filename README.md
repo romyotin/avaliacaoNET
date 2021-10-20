@@ -2,7 +2,7 @@
 
 Desenvolver um sistema em .net de gerenciamento de livraria.
 
-O sistema devera ter uma tela para listar os livros com opção de ordenar pelo nome ou pelo codigo.
+O sistema devera ter listar os livros com opção de ordenar pelo nome ou pelo codigo.
 
 Tera que ter um crud para livros.
 
@@ -13,13 +13,13 @@ Criar um mecanismo de Logs para registrar as ações de criação, modificação
 
 # Observações:
 
-O candidato tem a opção de escolher se vai desenvolver em .net core ou MVC.
-
 A persistencia dos dados deve ser em Dapper ou Entity Framework.
 
-O Front deverá ser desenvolvido em html/css/javascript e bootstrap.
-
 Gerar um arquivo readme com a documentação do sistema/intruções de instalação.
+
+Caso o candidato esteja concorrendo a vaga de .net Core, as APIS devem ser documentadas via Swagger.
+
+Caso esteja concorrendo a vaga de .net mvc, as telas devem ser desenvolvidas em bootstrap, javascript e css.
 
 
 # Critério de desempate
