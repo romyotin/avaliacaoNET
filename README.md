@@ -1,4 +1,4 @@
-# avaliacaoNET
+# avaliacao NET
 # Desafio:
 
 Desenvolver um sistema em .net de gerenciamento de livraria.
@@ -14,7 +14,11 @@ Criar um mecanismo de Logs para registrar as ações de criação modificação 
 # Observações:
 
 O candidato tem a opção de escolher se vai desenvolver em .net core ou MVC.
+
 A persistencia dos dados deve ser em Dapper ou Entity Framework.
-O Front deverá ser desenvolvido em html/css/javascript e bootstrap
+
+O Front deverá ser desenvolvido em html/css/javascript e bootstrap.
+
 utilização de DDD/TDD será um diferencial.
+
 Gerar um arquivo readme com a documentação do sistema/intruções de instalação.
