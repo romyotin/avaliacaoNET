@@ -8,7 +8,8 @@ Tera que ter um crud para livros.
 
 Os livros devem ser persistidos em um banco de dados (sql express por exemplo).
 
-Criar um mecanismo de Logs para registrar as ações de criação modificação e exclusão de livros
+Criar um mecanismo de Logs para registrar as ações de criação, modificação e exclusão de livros
+
 
 # Observações:
 
@@ -18,6 +19,19 @@ A persistencia dos dados deve ser em Dapper ou Entity Framework.
 
 O Front deverá ser desenvolvido em html/css/javascript e bootstrap.
 
-utilização de DDD/TDD será um diferencial.
-
 Gerar um arquivo readme com a documentação do sistema/intruções de instalação.
+
+
+# Critério de desempate
+
+Aplicação das boas práticas do DDD, TDD, Design Patterns, SOLID e Clean Code.
+
+# Como deverá ser entregue:
+
+Faça um fork deste repositório;
+
+Realize o teste;
+
+Adicione seu currículo na raiz do repositório;
+
+Envie-nos o PULL-REQUEST para que seja avaliado;
