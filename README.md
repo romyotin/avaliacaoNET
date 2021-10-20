@@ -28,10 +28,8 @@ Aplicação das boas práticas do DDD, TDD, Design Patterns, SOLID e Clean Code.
 
 # Como deverá ser entregue:
 
-Faça um fork deste repositório;
+Faça um fork deste repositório.
 
-Realize o teste;
+Realize o teste.
 
-Adicione seu currículo na raiz do repositório;
-
-Envie-nos o PULL-REQUEST para que seja avaliado;
+Envie-nos o PULL-REQUEST para que seja avaliado.
