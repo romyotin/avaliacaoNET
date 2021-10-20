@@ -1,4 +1,3 @@
-# avaliacao NET
 # Desafio:
 
 Desenvolver um sistema em .net de gerenciamento de livraria.
