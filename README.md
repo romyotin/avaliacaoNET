@@ -1,35 +1,44 @@
-# Desafio:
+# Configuracao:
 
-Desenvolver um sistema em .net de gerenciamento de livraria.
+Deverá ter instalado em sua máquina o .net core
 
-O sistema devera ter listar os livros com opção de ordenar pelo nome ou pelo codigo.
+Criar um banco de dados e configurar ele no app settings com o nome DefaultConnection como o exemplo abaixo
 
-Tera que ter um crud para livros.
+ "ConnectionStrings": {
+    "DefaultConnection": "Server=localhostouseuip;Database=seubanco;User Id=seuid;Password=suasenha;"
+  },
 
-Os livros devem ser persistidos em um banco de dados (sql express por exemplo).
+você irá rodar o seguinte comando
+dotnet ef --startup-project ..\Livraria.Web\Livraria.web.csproj --project .\Livraria.Infra.csproj migrations add LivrosInicial
 
-Criar um mecanismo de Logs para registrar as ações de criação, modificação e exclusão de livros
+e após 
 
+ dotnet ef --startup-project ..\Livraria.Web\Livraria.web.csproj --project .\Livraria.Infra.csproj database update 
 
-# Observações:
+ Esses comandos irão gerar uma nova migration e atualizar seu banco de dados.
 
-A persistencia dos dados deve ser em Dapper ou Entity Framework.
+No seu gerenciador de banco de dados, criar a tabela de log
 
-Gerar um arquivo readme com a documentação do sistema/intruções de instalação.
+CREATE TABLE [dbo].[Logs](
+	[Id] [int] NOT NULL,
+	[Message] [nvarchar](max) NULL,
+	[MessageTemplate] [nvarchar](max) NULL,
+	[Level] [nvarchar](128) NULL,
+	[TimeStamp] [datetime] NULL,
+	[Exception] [nvarchar](max) NULL,
+	[Properties] [nvarchar](max) NULL,
+	[Action] [nvarchar](max) NULL,
+ CONSTRAINT [PK_Logs] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
 
-Caso o candidato esteja concorrendo a vaga de .net Core, as APIS devem ser documentadas via Swagger.
+O programa está usando o Serilog para gerar logs
 
-Caso esteja concorrendo a vaga de .net mvc, as telas devem ser desenvolvidas em bootstrap, javascript e css.
+No Swagger está listando todas as rotas disponiveis
 
+Utilizei DDD mas sinto que pequei em alguns aspectos, com mais calma irei adequar o uso das services para a criar o LivroApplication que irá englobar toda a lógica  
 
-# Critério de desempate
-
-Aplicação das boas práticas do DDD, TDD, Design Patterns, SOLID e Clean Code.
-
-# Como deverá ser entregue:
-
-Faça um fork deste repositório.
-
-Realize o teste.
-
-Envie-nos o PULL-REQUEST para que seja avaliado.
+Muito obrigado pela oportunidade

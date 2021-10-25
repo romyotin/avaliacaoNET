@@ -1,0 +1,12 @@
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\bin\Debug\net5.0\Livraria.Utils.deps.json
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\bin\Debug\net5.0\Livraria.Utils.dll
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\bin\Debug\net5.0\ref\Livraria.Utils.dll
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\bin\Debug\net5.0\Livraria.Utils.pdb
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\obj\Debug\net5.0\Livraria.Utils.csproj.AssemblyReference.cache
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\obj\Debug\net5.0\Livraria.Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\obj\Debug\net5.0\Livraria.Utils.AssemblyInfoInputs.cache
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\obj\Debug\net5.0\Livraria.Utils.AssemblyInfo.cs
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\obj\Debug\net5.0\Livraria.Utils.csproj.CoreCompileInputs.cache
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\obj\Debug\net5.0\Livraria.Utils.dll
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\obj\Debug\net5.0\ref\Livraria.Utils.dll
+D:\Desenvolvimento\Estudo\.NET\Livraria\Livraria.Utils\obj\Debug\net5.0\Livraria.Utils.pdb
