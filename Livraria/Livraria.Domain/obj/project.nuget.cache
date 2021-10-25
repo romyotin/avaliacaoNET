@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Ama7fla3SOl8I2myKGIyWAe+KlG5tmyOBQhOqwDu7nyEzrikPfSeu+mi2lvo9UeGxzCgS3UQo05u/wLXK/AtA==",
+  "success": true,
+  "projectFilePath": "D:\\Desenvolvimento\\Estudo\\.NET\\Livraria\\Livraria.Domain\\Livraria.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adiel Silva\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
